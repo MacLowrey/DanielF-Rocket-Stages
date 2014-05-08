@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC0CAD0418A20BD400E49030 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FC0CAD0318A20BD400E49030 /* main.c */; };
+		FC0CAD0418A20BD400E49030 /* main.c.old in Sources */ = {isa = PBXBuildFile; fileRef = FC0CAD0318A20BD400E49030 /* main.c.old */; };
 		FC0CAD0618A20BD400E49030 /* Daniel_Rocket.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC0CAD0518A20BD400E49030 /* Daniel_Rocket.1 */; };
+		FC0CAD0E18A22CA700E49030 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FC0CAD0D18A22CA700E49030 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,11 @@
 
 /* Begin PBXFileReference section */
 		FC0CAD0018A20BD400E49030 /* Daniel Rocket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Daniel Rocket"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC0CAD0318A20BD400E49030 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FC0CAD0318A20BD400E49030 /* main.c.old */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.c.old; sourceTree = "<group>"; };
 		FC0CAD0518A20BD400E49030 /* Daniel_Rocket.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Daniel_Rocket.1; sourceTree = "<group>"; };
+		FC0CAD0C18A20E0500E49030 /* rocket2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rocket2.txt; sourceTree = "<group>"; };
+		FC0CAD0D18A22CA700E49030 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FC0CAD0F18A22D0C00E49030 /* Terminal Vs Xcode.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Terminal Vs Xcode.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,11 @@
 		FC0CAD0218A20BD400E49030 /* Daniel Rocket */ = {
 			isa = PBXGroup;
 			children = (
-				FC0CAD0318A20BD400E49030 /* main.c */,
+				FC0CAD0318A20BD400E49030 /* main.c.old */,
 				FC0CAD0518A20BD400E49030 /* Daniel_Rocket.1 */,
+				FC0CAD0C18A20E0500E49030 /* rocket2.txt */,
+				FC0CAD0D18A22CA700E49030 /* main.c */,
+				FC0CAD0F18A22D0C00E49030 /* Terminal Vs Xcode.rtf */,
 			);
 			path = "Daniel Rocket";
 			sourceTree = "<group>";
@@ -117,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0CAD0418A20BD400E49030 /* main.c in Sources */,
+				FC0CAD0E18A22CA700E49030 /* main.c in Sources */,
+				FC0CAD0418A20BD400E49030 /* main.c.old in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
